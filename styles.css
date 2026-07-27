@@ -181,3 +181,7 @@ main{
     cursor: pointer;
     transition: 0.3s ease;
 }
+
+#akan-form button:hover{
+    background-color: rgba(184, 134, 11);
+}
