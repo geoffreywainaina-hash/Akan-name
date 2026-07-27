@@ -122,4 +122,13 @@ main{
 
 #generate h2{
     font-size: 2.5rem;
+    color: goldenrod;
+}
+
+#akan-form{
+    width: 500px;
+    margin: auto;
+    display: flex;
+
+    flex-direction: column;
 }
