@@ -55,6 +55,26 @@ header p{
     margin-right: 10px;
 }
 
+.section-divider{
+    width: 80%;
+    margin: 80px auto;
+    text-align: center;
+
+    border-top: 2px solid purple;
+    position: relative;
+}
+
+.section-divider span{
+    padding: 0 20 px;
+    position: relative;
+    top: -12px;
+
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: purple;
+    background-color: #fff;
+}
+
 main{
 
     padding-top: 50px;
