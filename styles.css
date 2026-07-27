@@ -153,3 +153,19 @@ main{
     border: 2px solid #ccc;
     border-radius: 10px;
 }
+
+#akan-form input:hover,
+#akan-form select:hover{
+
+    border-color: goldenrod;
+}
+
+/* when user clicks the field */
+
+#akan-form input:focus,
+#akan-form select:focus{
+
+    outline: none;
+    border-color: green;
+}
+
