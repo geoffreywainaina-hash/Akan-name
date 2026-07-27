@@ -177,5 +177,7 @@ main{
     background-color: antiquewhite;
     font-size: 1rem;
     font-weight: bold;
-    
+
+    cursor: pointer;
+    transition: 0.3s ease;
 }
