@@ -175,5 +175,7 @@ main{
     border-radius: 10px;
 
     background-color: antiquewhite;
+    font-size: 1rem;
+    font-weight: bold;
     
 }
