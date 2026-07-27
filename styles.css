@@ -169,3 +169,11 @@ main{
     border-color: green;
 }
 
+#akan-form button{
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+
+    background-color: antiquewhite;
+    
+}
