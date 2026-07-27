@@ -132,3 +132,11 @@ main{
 
     flex-direction: column;
 }
+
+#akon-form label{
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 600;
+
+    margin-bottom: 8px;
+}
