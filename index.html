@@ -19,11 +19,13 @@
 
         <nav>
 
-            <a href="#form">Generate</a>
+            <a href="#hero">Home</a>
+
+            <a href="#generate">Generate</a>
+
+            <a href="#result">Results</a>
 
             <a href="#history">History</a>
-
-            <a href="#about">About</a>
 
         </nav>
 
@@ -31,7 +33,7 @@
 
     <main>
 
-        <section class="hero">
+        <section id="hero">
 
             <div class="description">
 
@@ -97,11 +99,11 @@
 
                 <select id="gender">
 
-                    <option value="">SELECT GENDER</option>
+                    <option value="">Select Gender</option>
 
-                    <option value="male">MALE</option>
+                    <option value="male">Male</option>
 
-                    <option value="female">FEMALE</option>
+                    <option value="female">Female</option>
 
                 </select>
 
@@ -116,18 +118,38 @@
         <div class="section-divider">
 
             <span>
-                Your Past Result
+                Your Akan Name
             </span>
-            
+
+        </div>
+
+        <section id="result">
+
+            <h3>Your Result</h3>
+
+            <div id="result-container">
+
+                <!-- Javascript will assign names here -->
+
+            </div>
+
+        </section>
+
+        <div class="section-divider">
+
+            <span>
+                Your Past Results
+            </span>
+
         </div>
 
         <section id="history">
 
-            <h3>
+            <h4>
 
                 Generated Names History
 
-            </h3>
+            </h4>
 
             <p id="empty-history">
 
@@ -142,7 +164,9 @@
             <!-- JavaScript will add items here -->
 
         </div>
+        
     </main>
 
+    <script src="./script.js"></script>
 </body>
 </html>

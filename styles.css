@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 header{
 
     height: 80px;
@@ -81,7 +85,7 @@ main{
 
 }
 
-.hero{
+#hero{
 
     display: flex;
     justify-content: space-between;
@@ -172,6 +176,23 @@ input::placeholder{
     opacity: 1;
 }
 
+#gender{
+
+    padding: 15px;
+    font-size: 1rem;
+    color: goldenrod;
+
+    opacity: 1;
+    font-style: italic;
+    font-size: 15px;
+}
+
+#gender option{
+    font-size: 1rem;
+    color: goldenrod;
+    background-color: white;
+}
+
 #akan-form input,
 
 #akan-form select{
@@ -213,4 +234,65 @@ input::placeholder{
 
 #akan-form button:hover{
     background-color: rgba(184, 134, 11);
+}
+
+#result{
+    padding: 80px 10%;
+    text-align: center;
+}
+
+#result h3{
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    color: goldenrod;
+}
+
+#result-container{
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+#history{
+
+    padding-top: 50px;
+    text-align: center;
+}
+
+#history h4{
+    margin-bottom: 20px;
+    color: goldenrod;
+}
+
+#empty-history{
+
+    font-size: 1.1rem;
+    color: green;
+}
+
+#history-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.history-card{
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+    text-align: left;
+
+}
+
+.history-card h4{
+    color: greenyellow;
+    margin-bottom: 15px;
+}
+
+.history-card p{
+    margin-bottom: 8px;
+    font-size: 1rem;
+    line-height: 1.5;
 }
