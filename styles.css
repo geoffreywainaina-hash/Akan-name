@@ -163,6 +163,15 @@ main{
     color: green;
 }
 
+input::placeholder{
+
+    color: goldenrod;
+    font-size: 16px;
+    font-style: italic;
+
+    opacity: 1;
+}
+
 #akan-form input,
 
 #akan-form select{
