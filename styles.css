@@ -296,3 +296,47 @@ input::placeholder{
     font-size: 1rem;
     line-height: 1.5;
 }
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 768px){
+    
+    header{
+        height: auto;
+        flex-direction: column;
+        padding: 15px 0;
+    }
+
+    header img{
+        height: 60px;
+    }
+
+    header p{
+        margin: 5px 0;
+        font-size: 1.2rem;
+    }
+
+    nav{
+        position: fixed;
+        gap: 15px;
+        margin-top: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav a{
+        font-size: 0.9rem;
+    }
+
+    maiin{
+        padding-top: 180px;
+    }
+
+    #hero{
+        flex-direction: column;
+        text-align: center;
+        padding: 50px 10%;
+    }
+
+    
+}
