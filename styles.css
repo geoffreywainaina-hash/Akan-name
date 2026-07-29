@@ -373,7 +373,17 @@ input::placeholder{
     #akan-form select,
 
     #akan-form button{
-        
+
         font-size: 0.95rem;
     }
+
+    #result h3{
+        font-size: 2rem;
+    }
+
+    #result-container{
+        padding: 20px;
+    }
+
+    
 }
