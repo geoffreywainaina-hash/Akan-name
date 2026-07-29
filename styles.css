@@ -355,5 +355,7 @@ input::placeholder{
         width: 90%;
     }
 
-    
+    .section-divider span{
+        font-size: 1rem;
+    }
 }
