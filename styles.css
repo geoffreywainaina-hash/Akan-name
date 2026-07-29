@@ -363,5 +363,9 @@ input::placeholder{
         font-size: 2rem;
     }
 
+    #akan-form{
+        width: 100%;
+        max-width: 500px;
+    }
     
 }
