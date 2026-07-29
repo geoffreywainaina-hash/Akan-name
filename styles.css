@@ -385,5 +385,11 @@ input::placeholder{
         padding: 20px;
     }
 
-    
+    #history-container{
+        padding: 20px 5%;
+    }
+
+    .history-card{
+        padding: 20px;
+    }
 }
