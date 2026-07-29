@@ -346,5 +346,8 @@ input::placeholder{
         font-size: 1 rem;
     }
 
-    
+    .hero-image img{
+        width: 100%;
+        max-width: 400px;
+    }
 }
