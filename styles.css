@@ -358,4 +358,10 @@ input::placeholder{
     .section-divider span{
         font-size: 1rem;
     }
+
+    #generate h2{
+        font-size: 2rem;
+    }
+
+    
 }
