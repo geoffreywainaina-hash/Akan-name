@@ -342,5 +342,9 @@ input::placeholder{
         font-size: 2.5rem;
     }
 
+    .description p{
+        font-size: 1 rem;
+    }
+
     
 }
