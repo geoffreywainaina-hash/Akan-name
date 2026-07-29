@@ -367,5 +367,13 @@ input::placeholder{
         width: 100%;
         max-width: 500px;
     }
-    
+
+    #akan-form input,
+
+    #akan-form select,
+
+    #akan-form button{
+        
+        font-size: 0.95rem;
+    }
 }
