@@ -1,4 +1,4 @@
-const malesNames = [
+const maleNames = [
     "kwasi",
     "Kwadwo",
     "Kwabena",
@@ -25,13 +25,12 @@ const weekDays = [
     "Wednesday",
     "Thursday",
     "Friday",
-    "Sunday"
+    "Saturday"
 ];
 
 // Retrieve the form
 
-const form = document.getElementById("akan-form")
-
+const form = document.getElementById("akan-form");
 
 // Listen for submit button
 
@@ -140,7 +139,7 @@ form.addEventListener("submit",function (event){
 
     if (gender === "male") {
         
-        akanName = malesNames[dayNumber];
+        akanName = maleNames[dayNumber];
 
     } else {
         
@@ -150,13 +149,13 @@ form.addEventListener("submit",function (event){
     // Display the results
 
     resultContainer.innerHTML = `
-    <h3>${akanName}<h3>
+    <h3>${akanName}</h3>
     
-    <p><strong>Day born:</strong> ${dayOfWeek}<p>
+    <p><strong>Day born:</strong> ${dayOfWeek}</p>
     
-    <p><strong>Gender:</strong> ${gender}<p>
+    <p><strong>Gender:</strong> ${gender}</p>
     
-    <p><strong>Date of Birth:</strong> ${day}/${month}/${year}<p>
+    <p><strong>Date of Birth:</strong> ${day}/${month}/${year}</p>
     `;
 
     // Remove the empty history message
@@ -196,4 +195,6 @@ form.addEventListener("submit",function (event){
     resultSection.scrollIntoView({
         behavior: "smooth"
     })
+
 });
+
