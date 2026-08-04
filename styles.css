@@ -328,7 +328,7 @@ input::placeholder{
         font-size: 0.9rem;
     }
 
-    maiin{
+    main{
         padding-top: 180px;
     }
 
@@ -343,7 +343,7 @@ input::placeholder{
     }
 
     .description p{
-        font-size: 1 rem;
+        font-size: 1.1rem;
     }
 
     .hero-image img{
